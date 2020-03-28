@@ -1,0 +1,54 @@
+.character-profile {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.character-details {
+  width: 70%;
+}
+
+.character-profile-pic {
+  width: 30%;
+  object-fit: cover;
+}
+  
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  width: 70%;
+  max-width: 560px;
+  max-height: 315px;
+}
+
+@media (min-width: 576px) {
+  .character-profile-pic {
+    height: 450px;
+  }
+}
+
+@media (max-width: 576px) {
+  .character-details {
+    width: 100%;
+  }
+
+  .character-profile-pic {
+    width: 100%;
+  }
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    }
+    
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

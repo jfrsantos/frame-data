@@ -1,0 +1,50 @@
+{
+    "name": "Scorpion",
+    "description": "Grandmaster Scorpion of the Shirai Ryu. Driven by rage, Hanzo Hasashi went through Hell and back to avenge his family and clan, never resting until he cut down their murderer, Quan Chi. Now he leads a reborn Shirai Ryu, avenging those who cannot avenge themselves.",
+    "icon": "https://www.kombatakademy.com/wp-content/uploads/mortal-kombat-11/characters/scorpion.png",
+    "video": "https://www.youtube.com/embed/aJlAAsEcqYg",
+    "movelist": {
+        "basic_attacks": [
+            {
+                "input": "D+2",
+                "startup": "10",
+                "active": "4",
+                "recovery": "41",
+                "cancel_adv": "0",
+                "hit": "29",
+                "block": "-8",
+                "fblock": "-18",
+                "type": "high",
+                "description": "Krushing blow: Triggers if this attack counters or punishes a high attack"
+            }
+        ],
+        "kombo_attacks": [
+            {
+                "input": "1,1",
+                "startup": "13",
+                "active": "3",
+                "recovery": "20",
+                "cancel_adv": "17",
+                "hit": "15",
+                "block": "-6",
+                "fblock": "-6",
+                "type": "mid",
+                "description": "N/A"
+            },
+            {
+                "input": "1,1,2",
+                "startup": "15",
+                "active": "3",
+                "recovery": "25",
+                "cancel_adv": "0",
+                "hit": "28",
+                "block": "-6",
+                "fblock": "-6",
+                "type": "mid",
+                "description": "N/A"
+            }
+        ],
+        "special_moves": [],
+        "finishers": []
+    }
+}

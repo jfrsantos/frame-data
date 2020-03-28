@@ -1,0 +1,20 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "components/character";
+@import "components/characterlist";
+@import "components/characterlistitem";
+@import "components/movelist/movelist";
+
+@media (min-width: 576px) {
+    html,
+    body,
+    #app,
+    #character-page {
+        height: 100%;
+    }
+}
+
+#app {
+    background-image: url("../../assets/background.png");
+    background-size: cover;
+}

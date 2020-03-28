@@ -1,0 +1,15 @@
+.nav-tabs  .nav-link {
+    color: $light;
+}
+.nav-tabs  .nav-link.active {
+    color: $light;
+    background-color: $dark; 
+}
+
+.movelist-table td, .movelist-table th {
+    vertical-align: middle !important;
+}
+
+.movelist-table td.move-description {
+    min-width: 300px !important;
+}

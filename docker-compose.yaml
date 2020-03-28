@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  frame-data-go:
+    container_name: frame-data-go
+    hostname: frame-data-go
+    image: golang:alpine
+    ports: 
+      - 4444:8080
+    volumes:
+      - ./code/go:/go/src/frame-data-go/
+
+  frame-data-vue:
+    container_name: frame-data-vue
+    hostname: frame-data-vue
+    image: node:lts-alpine
+    working_dir: /app
+    ports:
+      - 8080:8080
+    volumes:
+      - ./code/frontend:/app/
+    command: /bin/sh -c "npm run serve"

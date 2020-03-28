@@ -1,0 +1,10 @@
+.character-list {
+  height: 100%;
+  overflow: scroll;
+}
+
+@media (max-width: 576px) {
+  .character-list {
+      display: none !important;
+  }
+}
